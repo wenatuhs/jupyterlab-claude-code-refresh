@@ -1,0 +1,44 @@
+{
+  "name": "jupyterlab-claude-code-refresh",
+  "version": "0.1.0",
+  "description": "Auto-refresh notebooks when modified by Claude Code",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/yourusername/jupyterlab-claude-code-refresh",
+  "bugs": {
+    "url": "https://github.com/yourusername/jupyterlab-claude-code-refresh/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": {
+    "name": "Your Name",
+    "email": "me@test.com"
+  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "style": "style/index.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/jupyterlab-claude-code-refresh.git"
+  },
+  "jupyterlab": {
+    "extension": true,
+    "outputDir": "jupyterlab_claude_code_refresh/labextension",
+    "sharedPackages": {
+      "@jupyterlab/application": {
+        "bundled": false,
+        "singleton": true
+      },
+      "@jupyterlab/docmanager": {
+        "bundled": false,
+        "singleton": true
+      },
+      "@jupyterlab/services": {
+        "bundled": false,
+        "singleton": true
+      }
+    }
+  }
+}

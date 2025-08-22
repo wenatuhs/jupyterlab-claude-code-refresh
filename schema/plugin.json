@@ -1,0 +1,56 @@
+{
+  "jupyter.lab.setting-icon": "ui-components:settings",
+  "jupyter.lab.setting-icon-label": "Claude Code Auto-Refresh",
+  "title": "Claude Code Auto-Refresh",
+  "description": "Settings for Claude Code Auto-Refresh extension",
+  "type": "object",
+  "properties": {
+    "enabled": {
+      "title": "Enable Auto-Refresh",
+      "description": "Enable automatic refreshing of notebooks when modified by Claude Code",
+      "type": "boolean",
+      "default": true
+    },
+    "showNotifications": {
+      "title": "Show Notifications",
+      "description": "Show notifications when notebooks are automatically refreshed",
+      "type": "boolean",
+      "default": false
+    },
+    "conflictResolution": {
+      "title": "Conflict Resolution",
+      "description": "How to handle conflicts when you have unsaved changes and external modifications occur",
+      "type": "string",
+      "enum": ["ask", "keepLocal", "useExternal"],
+      "enumLabels": [
+        "Ask me each time",
+        "Keep my local changes",
+        "Use external changes"
+      ],
+      "default": "ask"
+    },
+    "showWelcomeBanner": {
+      "title": "Show Welcome Banner",
+      "description": "Show welcome banner with usage tips when the extension loads",
+      "type": "boolean",
+      "default": true
+    },
+    "refreshDelay": {
+      "title": "Refresh Delay (ms)",
+      "description": "Delay in milliseconds before refreshing after detecting file changes (helps batch rapid changes)",
+      "type": "number",
+      "minimum": 100,
+      "maximum": 5000,
+      "default": 500
+    },
+    "logLevel": {
+      "title": "Log Level",
+      "description": "Control console output level: none (no logs), info (important events), debug (verbose logging)",
+      "type": "string",
+      "enum": ["none", "info", "debug"],
+      "enumLabels": ["None", "Info", "Debug"],
+      "default": "none"
+    }
+  },
+  "additionalProperties": false
+}
