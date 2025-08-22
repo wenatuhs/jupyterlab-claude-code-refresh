@@ -472,7 +472,6 @@ Configure in Settings → Claude Code Auto-Refresh`;
     // Handle notebook renames if needed in the future
   }
 
-
   /**
    * Schedule a refresh for the given notebook context
    */

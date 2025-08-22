@@ -13,7 +13,7 @@ When using Claude Code within JupyterLab's built-in terminal, Claude Code can mo
 This extension solves that problem by automatically refreshing notebooks when external changes are detected:
 
 - **File Watching**: Monitors file system changes for notebook files (.ipynb)
-- **Smart Detection**: Identifies when changes were made externally (not by JupyterLab itself)  
+- **Smart Detection**: Identifies when changes were made externally (not by JupyterLab itself)
 - **Auto-Refresh**: Automatically refreshes the notebook view from disk
 - **Conflict Resolution**: Handles cases where you have unsaved changes
 
