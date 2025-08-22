@@ -7,14 +7,14 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/zhezhang77/jupyterlab-claude-code-refresh",
+  "homepage": "https://github.com/wenatuhs/jupyterlab-claude-code-refresh",
   "bugs": {
-    "url": "https://github.com/zhezhang77/jupyterlab-claude-code-refresh/issues"
+    "url": "https://github.com/wenatuhs/jupyterlab-claude-code-refresh/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
     "name": "Zhe Zhang",
-    "email": "zhe@anthropic.com"
+    "email": "wenatuhs@gmail.com"
   },
   "files": [
     "lib/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf}",
@@ -25,7 +25,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zhezhang77/jupyterlab-claude-code-refresh.git"
+    "url": "https://github.com/wenatuhs/jupyterlab-claude-code-refresh.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",

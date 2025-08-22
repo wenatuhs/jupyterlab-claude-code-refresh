@@ -1,6 +1,6 @@
 # Claude Code Auto-Refresh
 
-[![Github Actions Status](https://github.com/zhezhang77/jupyterlab-claude-code-refresh/workflows/Build/badge.svg)](https://github.com/zhezhang77/jupyterlab-claude-code-refresh/actions/workflows/build.yml)
+[![Github Actions Status](https://github.com/wenatuhs/jupyterlab-claude-code-refresh/workflows/Build/badge.svg)](https://github.com/wenatuhs/jupyterlab-claude-code-refresh/actions/workflows/build.yml)
 
 A JupyterLab extension that automatically refreshes notebooks when they are modified externally by Claude Code.
 

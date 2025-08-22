@@ -1,5 +1,5 @@
 {
-  "jupyter.lab.setting-icon": "ui-components:settings",
+  "jupyter.lab.setting-icon": "ui-components:refresh",
   "jupyter.lab.setting-icon-label": "Claude Code Auto-Refresh",
   "title": "Claude Code Auto-Refresh",
   "description": "Settings for Claude Code Auto-Refresh extension",
